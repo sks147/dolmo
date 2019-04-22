@@ -1,0 +1,9 @@
+{
+  "name": "dolmo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sks147/dolmo",
+  "author": "sks147 <sksingh1997@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
