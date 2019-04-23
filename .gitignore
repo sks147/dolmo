@@ -1,1 +1,28 @@
 installation_steps.md
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#directories
+node_modules/
+dist/
+build/
+tmp/
+
+# Generated file
+*.js
+!webpack.*.js
+*.zip
+*.js.map
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+#lock files
+*.lock
