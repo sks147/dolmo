@@ -1,16 +1,13 @@
 # dolmo
-Advanced Note taking cross browser extension
+> Advanced Note taking cross browser extension
 
+### Workflow:
 
-### Testing out the extension:
-Install web-ext tool
-```npm install --global web-ext```
-
-cd into project's root directory
-```web-ext run```
-
-Install dev dependencies
-```yarn add gulp gulp-cli typescript ts-loader json-loader webpack --dev```
+Install dependencies
+`yarn install`
 
 Running gulp tasks
-```yarn run gulp --tasks```
+`yarn gulp`
+
+Running web-extension locally
+`yarn try`

@@ -4,13 +4,13 @@
     "target": "es5",
     "noImplicitAny": true,
     "sourceMap": false,
-    "rootDir": "./",
-    "outDir": "dist/",
+    "rootDir": "src/scripts/",
+    "outDir": "dist/scripts/",
     "noEmitOnError": true,
     "removeComments": true,
   },
   "include": [
-    "*.ts"
+    "./src/scripts/*.ts"
   ],
   "exclude": [
     "dist",

@@ -8,9 +8,8 @@
   "private": true,
   "scripts": {
     "gulp": "./node_modules/.bin/gulp",
-    "try": "cp manifest.json dist/manifest.json && ./node_modules/.bin/web-ext run --source-dir=dist --ignore-files=\"*.ts\"",
+    "try": "./node_modules/.bin/gulp && ./node_modules/.bin/web-ext run --source-dir=dist --ignore-files=\"*.ts\"",
     "build": "./node_modules/.bin/web-ext build --artifacts-dir ./build/",
-    "transpile": "./node_modules/.bin/tsc",
     "watch": "./node_modules/.bin/webpack --watch"
   },
   "devDependencies": {
