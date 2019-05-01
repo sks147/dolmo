@@ -10,10 +10,12 @@
     "gulp": "./node_modules/.bin/gulp",
     "try": "./node_modules/.bin/gulp && ./node_modules/.bin/web-ext run --source-dir=dist --ignore-files=\"*.ts\"",
     "build": "./node_modules/.bin/web-ext build --artifacts-dir ./build/",
-    "watch": "./node_modules/.bin/webpack --watch"
+    "watch": "./node_modules/.bin/webpack --watch",
+    "lint": "./node_modules/.bin/eslint --ignore-pattern node_modules/ ./src/scripts --ext .ts"
   },
   "devDependencies": {
-    "cpx": "^1.5.0",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "eslint": "^5.16.0",
     "gulp": "^4.0.1",
     "json-loader": "^0.5.7",
     "ts-loader": "^5.4.3",
